@@ -7,11 +7,13 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    <!-- HEADER IN PARTIALS -->
-    @include('partials.header')
-    <!-- MAIN IN PARTIALS -->
-    @include('partials.main')
-    <!-- FOOTER IN PARTIALS -->
-    @include('partials.footer')
+    <div class="container">
+        <!-- HEADER IN PARTIALS -->
+        @include('partials.header')
+        <!-- MAIN IN PARTIALS -->
+        @include('partials.main')
+        <!-- FOOTER IN PARTIALS -->
+        @include('partials.footer')    
+    </div> 
 </body>
 </html>
